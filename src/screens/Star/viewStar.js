@@ -6,7 +6,7 @@ const ViewStar = (props) => {
     const {} = props;
     return (
     <div className={styles._}>
-        <IconStar width={24} height={24} className={styles.IconStar}/>
+        <IconStar width={30} height={30} className={styles.IconStar}/>
     </div>
     );
 };

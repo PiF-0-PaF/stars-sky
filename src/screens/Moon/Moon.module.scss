@@ -1,8 +1,24 @@
 ._ {
   height: 72px;
   width: 72px;
+  animation: Moon 10s ease-in-out infinite;
+  margin-left: 100px;
 }
 
 .IconMoon {
-  fill: #ffc107;
+  fill: #ffc107;  
+}
+
+@keyframes Moon {
+  0%{
+      transform: rotate(5deg);
+  }
+
+  50%{
+      transform: rotate(90deg);
+  }
+
+  100%{
+      transform: rotate(5deg);
+  }
 }
